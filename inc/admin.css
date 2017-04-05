@@ -1,6 +1,0 @@
-.wp-customizer #customize-control-show_on_front, .wp-customizer #customize-control-show_on_front, .wp-customizer #customize-control-page_for_posts{
-  display: none!important;
-}
-
-.wp-customizer #customize-control-page_on_front::before {
-}

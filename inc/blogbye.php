@@ -59,10 +59,11 @@ function blogbye_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'blogbye_after_setup_theme' );
 
-/* Update customizer setting to only show pages */
-function blogbye_admin_style() {
-  wp_enqueue_style('admin-styles', get_template_directory_uri().'/inc/admin.css');
+/* Update customizer setting to only show page stuff */
+function blogbye_remove_settings( $wp_customize ) {
+  $wp_customize->remove_control('show_on_front');
+  $wp_customize->remove_control('page_for_posts');
 }
-add_action('admin_enqueue_scripts', 'blogbye_admin_style');
+add_action( 'customize_register', 'blogbye_remove_settings' );
 
 ?>
