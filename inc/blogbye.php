@@ -1,7 +1,4 @@
 <?php
-/*
-Remove post option from customizer
-*/
 
 /* Remove posts & comments menu item */
 function blogbye_remove_menus(){
