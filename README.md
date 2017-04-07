@@ -3,4 +3,4 @@ Hi. I'm blog bye, underscores's little brother. WordPress use to be all about th
 
 I think that's silly, with blog bye you can create themes without having to worry about the blog stuff as the blogging portions of WordPress have all been hidden/removed. Sure there are plugins that do something similar to this but I felt that whether to including the blogging bit was a decision best left to themes.
 
-Read more about why I did this [here:](https://secretpizza.party/blog-bye/) .
+Read more about why I did this [here](https://secretpizza.party/blog-bye/).
