@@ -63,7 +63,6 @@ add_action( 'after_setup_theme', 'blogbye_after_setup_theme' );
 function blogbye_remove_settings( $wp_customize ) {
   $wp_customize->remove_control( 'show_on_front' );
   $wp_customize->remove_control( 'page_for_posts' );
-  $wp_customize->remove_control( 'available-menu-items-post_type-post' );
 }
 add_action( 'customize_register', 'blogbye_remove_settings' );
 
